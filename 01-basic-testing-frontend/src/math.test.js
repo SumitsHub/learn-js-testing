@@ -14,3 +14,11 @@ it('should sum all number values in array', () => {
   );
   expect(result).toBe(expectedResult);
 });
+
+it('should yield NaN', () => {
+  const inputs = ['invalid', 1];
+
+  const result = add(inputs);
+
+  expect(result).toBeNaN();
+});
