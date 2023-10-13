@@ -48,3 +48,12 @@ it('error test', () => {
 
   expect(resultFn).toThrow();
 });
+
+it('multiple arguments', () => {
+  const num1 = 1;
+  const num2 = 2;
+  const resultFn = () => {
+    add(num1, num2);
+  };
+  expect(resultFn).toThrow(/is not iterable/);
+});
