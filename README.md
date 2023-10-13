@@ -24,3 +24,12 @@
 - Checks whether expectations are met
 - Supports all kinds of expectations and modes (sync/async)
 - e.g. Jest, Chai
+
+### Running test using command
+npm test
+
+
+### AAA Pattern - Arrange, Act, Assert
+- Arrange - define the testing environment and values
+- Act - Run the actual code/function that should be tested
+- Assert - Evaluate the produced value/result and compare it to the expected value/result
