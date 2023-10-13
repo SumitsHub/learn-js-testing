@@ -22,3 +22,29 @@ it('should yield NaN', () => {
 
   expect(result).toBeNaN();
 });
+
+it('empty array', () => {
+  const numbers = [];
+
+  const result = add(numbers);
+
+  expect(result).toBe(0);
+});
+
+// .not property
+it('not an error', () => {
+  const numbers = [];
+
+  const result = add(numbers);
+
+  expect(result).not.toBeNaN();
+});
+
+// toThrow
+it('error test', () => {
+  const resultFn = () => {
+    add(); // not passing any argument
+  };
+
+  expect(resultFn).toThrow();
+});
