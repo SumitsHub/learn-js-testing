@@ -28,8 +28,24 @@
 ### Running test using command
 npm test
 
+### File name convention
+- use .test.js extension e.g. app.test.js test file app.js
+- use .spec.js extension e.g. app.spec.js test file app.js
+- both files will be detected by testing library
 
 ### AAA Pattern - Arrange, Act, Assert
 - Arrange - define the testing environment and values
 - Act - Run the actual code/function that should be tested
 - Assert - Evaluate the produced value/result and compare it to the expected value/result
+
+### What not to test
+- functionalities of global APIs
+- external library functionality
+- something which you can't change
+
+
+### Writing Good Tests
+- Follow AAA Pattern
+- Only test one thing at a time
+- Focus on the essance of a test when arranging
+- Keep your number of assertions ('expects') low
