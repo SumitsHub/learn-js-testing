@@ -49,3 +49,7 @@ npm test
 - Only test one thing at a time
 - Focus on the essance of a test when arranging
 - Keep your number of assertions ('expects') low
+
+
+### Integration test
+- combining multiple units/modules/functions
