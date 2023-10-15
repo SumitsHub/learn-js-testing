@@ -27,7 +27,9 @@ describe('cleanNumbers()', () => {
 
     const cleanedNumbers = cleanNumbers(numbers);
 
-    expect(cleanedNumbers[0]).toBeTypeOf('number');
+    // expect(cleanedNumbers[0]).toBeTypeOf('number');
+    // expect(cleanedNumbers).toBe([1, 2]); // Fails the test
+    expect(cleanedNumbers).toEqual([1, 2]);
   });
 
   it('should throw an error for invalid string', () => {
