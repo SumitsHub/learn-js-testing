@@ -1,7 +1,7 @@
 
 ### Unit testing
 - Unit - A building block of your app
-- e.g. a function, a class, a componnet
+- e.g. a function, a class, a component
 
 ### Types of testing
 - Unit testing
@@ -20,7 +20,7 @@
 - e.g. Jest, Karma
 
 #### Assertion Library
-- Used to define expected autcomes
+- Used to define expected outcomes
 - Checks whether expectations are met
 - Supports all kinds of expectations and modes (sync/async)
 - e.g. Jest, Chai
@@ -47,7 +47,7 @@ npm test
 ### Writing Good Tests
 - Follow AAA Pattern
 - Only test one thing at a time
-- Focus on the essance of a test when arranging
+- Focus on the essence of a test when arranging
 - Keep your number of assertions ('expects') low
 
 

@@ -8,7 +8,7 @@ test('string number to number', () => {
   expect(result).toBeTypeOf('number');
 });
 
-test('yeild NaN', () => {
+test('yield NaN', () => {
   const input = 'something';
   const input2 = {};
 
